@@ -2,7 +2,7 @@
 #define BLOCMOTEURS_H
 
 #include <Arduino.h>
-#include <Reglages.h>
+#include "Reglages.h"
 
 
 typedef enum direction
@@ -36,6 +36,8 @@ class BlocMoteurs
 		void motors_on();
 
 		void setPourcentMaxSpeed(double p_pourcentMaxSpeed);
+
+		bool get_moteurs_arret(){return moteurs_arret;};
 
 	private:
 		// Methodes pour définir la tension affectée à chaque moteur

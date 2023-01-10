@@ -1,7 +1,11 @@
 #pragma once
-#include "Global_extern.h"
 
-#define PPR 256
+
+
+
+
+
+#define PPR 330
 
 #define MAX_PWM_VALUE_THEORETICAL 255
 #define MAX_PWM_VALUE_SAFETY 200
@@ -19,3 +23,12 @@
 #define TAU_M2_FG 0.1
 #define TAU_M3_BG 0.1
 #define TAU_M3_BD 0.1
+
+#define INIT_X 0.0 
+#define INIT_Y 0.0 
+#define INIT_THETA 0.0
+
+#define RAYONROUES 0.06
+
+#define L1PL2 0.3
+
